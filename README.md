@@ -1,0 +1,5 @@
+# A cloud-based architecture for EHR software
+--------------
+
+## Abstract
+Medical care providers dread the current systems for producing and consuming electronic health records (EHRs). Insurance industry regulations force care providers to document a widening array of basic activities in EHRs. In theory, such documentation follows patients between institutions and provides insights for improving patient care. In practice, EHR documentation is often performed on poorly designed software and fragmented between hospitals, placing a major burden on medical professionals. We propose an alternative architecture for EHR software systems, in which all EHRs are stored in a universal database in the cloud. This monolithic database may be accessed by any number of EHR software providers, but each provider must maintain consistency with the database. We argue that this two-tier design---a universal storage tier accessed through a stateless logic tier---makes EHRs truly sharable and improves competitive pressure to create high quality software.
